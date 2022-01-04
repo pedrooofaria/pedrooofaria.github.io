@@ -256,8 +256,8 @@ header
 }
 
 .background-header {
-  background-color: #fff!important;
-  height: 80px!important;
+  background-color: #0e81f3!important;
+  height: 90px!important;
   position: fixed!important;
   top: 0!important;
   left: 0;
@@ -271,7 +271,7 @@ header
 
 .background-header .logo,
 .background-header .main-nav .nav li a {
-  color: #1e1e1e!important;
+  color: #fff!important;
 }
 
 .background-header .main-nav .nav li:hover a {
@@ -412,7 +412,7 @@ header
 .header-area .main-nav .nav li.has-sub ul.sub-menu li a {
   opacity: 1;
   display: block;
-  background: #fff;
+  background: #f7f7f7;
   color: #2a2a2a!important;
   padding-left: 20px;
   height: 40px;
@@ -716,7 +716,7 @@ banner
 
 .video-overlay {
     position: absolute;
-    background-color: rgba(184, 224, 242, 0.300);
+    background-color: rgba(31,39,43,0.75);
     top: 0;
     left: 0;
     bottom: 0;
@@ -762,10 +762,6 @@ banner
 }
 
 .main-banner .caption .main-button-red {
-  margin-top: 30px;
-}
-
-.main-banner .caption .main-button-green {
   margin-top: 30px;
 }
 
@@ -909,7 +905,7 @@ section.upcoming-meetings {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 230px;
+  padding-top: 30px;
   padding-bottom: 110px;
 }
 
@@ -955,18 +951,7 @@ section.upcoming-meetings .categories .main-button-red {
   margin-top: 15px;
 }
 
-section.upcoming-meetings .categories .main-button-green {
-  border-top: 1px solid #eee;
-  padding-top: 30px;
-  margin-top: 15px;
-}
-
 section.upcoming-meetings .categories .main-button-red a {
-  width: 100%;
-  text-align: center;
-}
-
-section.upcoming-meetings .categories .main-button-green a {
   width: 100%;
   text-align: center;
 }
@@ -1357,7 +1342,7 @@ section.contact-us {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 140px 0px 0px 0px;
+  padding: 45px 0px 0px 0px;
 }
 
 section.contact-us #contact {
@@ -1518,7 +1503,7 @@ upcoming meetings page
 */
 
 section.meetings-page {
-  background-image: url(../images/meetings-page-bg.jpg);
+  background-image: url(../images/meetings-page-bg.png);
   background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -1581,17 +1566,7 @@ section.meetings-page .main-button-red {
   text-align: center;
 }
 
-section.meetings-page .main-button-green {
-  text-align: center;
-}
-
 section.meetings-page .main-button-red a {
-  padding: 12px 60px;
-  text-align: center;
-  margin-top: 30px;
-}
-
-section.meetings-page .main-button-green a {
   padding: 12px 60px;
   text-align: center;
   margin-top: 30px;
@@ -1812,10 +1787,6 @@ responsive
   }
 
   .main-banner .caption .main-button-red {
-    margin-top: 15px;
-  }
-
-  .main-banner .caption .main-button-green {
     margin-top: 15px;
   }
 
