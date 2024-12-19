@@ -9,7 +9,7 @@
   "author": "sergiojunior",
   "license": "ISC",
   "devDependencies": {
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "gulp-autoprefixer": "^3.1.1",
     "gulp-stylus": "^2.6.0"
   },
